@@ -13,6 +13,8 @@ defmodule PhoenixI18nWeb.CoreComponents do
   alias Phoenix.LiveView.JS
   import PhoenixI18nWeb.Gettext
 
+  defdelegate toggle_locale(assigns), to: PhoenixI18nWeb.ToggleLocale, as: :toggle_locale
+
   @doc """
   Renders a modal.
 

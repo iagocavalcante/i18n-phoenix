@@ -1,0 +1,28 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+
+#: lib/phoenix_i18n_web/components/core_components.ex:491
+#, elixir-autogen, elixir-format
+msgid "Actions"
+msgstr "Ações"
+
+#: lib/phoenix_i18n_web/live/home.ex:25
+#, elixir-autogen, elixir-format
+msgid "Peace of mind from prototype to production."
+msgstr "Tranquilidade desde o protótipo até a produção."
+
+#: lib/phoenix_i18n_web/components/core_components.ex:81
+#: lib/phoenix_i18n_web/components/core_components.ex:170
+#, elixir-autogen, elixir-format
+msgid "close"
+msgstr ""

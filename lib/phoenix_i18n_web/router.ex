@@ -17,7 +17,9 @@ defmodule PhoenixI18nWeb.Router do
   scope "/", PhoenixI18nWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live_session :locale, on_mount: [PhoenixI18nWeb.RestoreLocale] do
+      live "/", HomeLive, :home
+    end
   end
 
   # Other scopes may use custom stacks.

@@ -20,6 +20,7 @@ config :phoenix_i18n, PhoenixI18nWeb.Endpoint,
   pubsub_server: PhoenixI18n.PubSub,
   live_view: [signing_salt: "3XxOe2Ub"]
 
+config :phoenix_i18n, PhoenixI18nWeb.Gettext, default_locale: "en", locales: ~w(en pt_BR)
 # Configures the mailer
 #
 # By default it uses the "Local" adapter which stores the emails
