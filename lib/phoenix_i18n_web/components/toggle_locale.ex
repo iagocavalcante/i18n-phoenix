@@ -1,8 +1,6 @@
 defmodule PhoenixI18nWeb.ToggleLocale do
   use Phoenix.Component
 
-  import PhoenixI18nWeb.Gettext
-
   def toggle_locale(assigns) do
     ~H"""
     <button

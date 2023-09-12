@@ -2,8 +2,6 @@ defmodule PhoenixI18nWeb.RestoreLocale do
   import Phoenix.LiveView
   use Phoenix.Component
 
-  import PhoenixI18nWeb.Gettext
-
   def on_mount(:default, _params, _session, socket) do
 
     {:cont,
